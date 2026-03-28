@@ -1,0 +1,42 @@
+{
+  "name": "quakefyi-embed",
+  "version": "1.0.0",
+  "description": "Embed QuakeFYI widgets — earthquake cards, magnitude scale, tsunami warnings. 20,702 earthquakes. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "earthquake",
+    "seismic",
+    "magnitude",
+    "richter",
+    "tsunami",
+    "USGS",
+    "embed",
+    "widget",
+    "quakefyi",
+    "quakefyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "geofyi"
+  ],
+  "homepage": "https://widget.quakefyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/quakefyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/quakefyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
