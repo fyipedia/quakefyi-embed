@@ -1,6 +1,6 @@
 {
   "name": "quakefyi-embed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Embed QuakeFYI widgets — earthquake cards, magnitude scale, tsunami warnings. 20,702 earthquakes. Zero dependencies, Shadow DOM, 4 themes.",
   "main": "dist/embed.min.js",
   "module": "dist/embed.esm.js",
