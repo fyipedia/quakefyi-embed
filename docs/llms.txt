@@ -1,0 +1,26 @@
+# QuakeFYI Embed Widget
+
+> Embeddable QuakeFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/quakefyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://quakefyi.com
+- Widget docs: https://widget.quakefyi.com
+- npm: https://www.npmjs.com/package/quakefyi-embed
+- GitHub: https://github.com/fyipedia/quakefyi-embed
+- API: https://quakefyi.com/developers/
+
+## Geo FYI Widget Family
+
+- [DistanceFYI Widget](https://widget.distancefyi.com)
+- [MountainFYI Widget](https://widget.mountainfyi.com)
+- [ZipFYI Widget](https://widget.zipfyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
