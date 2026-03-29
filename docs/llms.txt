@@ -1,21 +1,52 @@
 # QuakeFYI Embed Widget
 
-> Embeddable QuakeFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Earthquakes, seismic data. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/quakefyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/quakefyi-embed@1/dist/embed.min.js"></script>
+<div data-quakefyi="magnitude-viz" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- entity: `data-quakefyi="entity"`
+- glossary: `data-quakefyi="glossary"`
+- guide: `data-quakefyi="guide"`
+- compare: `data-quakefyi="compare"`
+- search: `data-quakefyi="search"`
+- faq: `data-quakefyi="faq"`
+- magnitude-viz (interactive): `data-quakefyi="magnitude-viz"`
+- guide (interactive): `data-quakefyi="guide"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-quakefyi="magnitude-viz" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/quakefyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://quakefyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://quakefyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://quakefyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://quakefyi.com
 - Widget docs: https://widget.quakefyi.com
-- npm: https://www.npmjs.com/package/quakefyi-embed
+- API documentation: https://quakefyi.com/developers/
+- npm package: https://www.npmjs.com/package/quakefyi-embed
 - GitHub: https://github.com/fyipedia/quakefyi-embed
-- API: https://quakefyi.com/developers/
 
-## Geo FYI Widget Family
+## Geo FYI Widget Network
 
 - [DistanceFYI Widget](https://widget.distancefyi.com)
 - [MountainFYI Widget](https://widget.mountainfyi.com)
