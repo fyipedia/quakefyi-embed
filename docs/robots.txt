@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# QuakeFYI Embed Widget
+# Main site: https://quakefyi.com
+# Widget docs: https://widget.quakefyi.com
+# npm: https://www.npmjs.com/package/quakefyi-embed
